@@ -12,7 +12,7 @@
 	<link href="../resources/css/my_style.css" rel="stylesheet">
   </head>
   <body>
-	
+
 	<img src="../resources/img/beproudcapaabanner.jpg" class="img-fluid" alt="Registration Page Banner for CU Football">
     <br>
 	<br>
@@ -33,8 +33,58 @@
 					11. Submit Button (links to home page)
 
 			-->
-			<input type="submit" value="submit" class="btn btn-primary btn-block">
+      <label for="input_id">Full Name:</label>
+      <input type="text" name="my_text_field" placeholder="Placeholder Text To Display">
 		</form>
+
+    <form action="home.html">
+       <label for="input_id">Email address:</label>
+       <input type="email" name="my_email_field" placeholder="john@email.com">
+     </form>
+
+     <form action="home.html">
+        <label for="input_id">Password:</label>
+        <input type="password" name="my_pw_field">
+      </form>
+
+      <form action="home.html">
+         <label for="input_id">Confirm Password:</label>
+         <input type="password" name="my_pw_field">
+       </form>
+
+       <form action="home.html">
+          <label for="input_id">CU Boulder Alumni</label>
+          <input type="radio" name="affirmative" value="yes"> Yes
+          <input type="radio" name="negative" value="no"> No
+        </form>
+
+        <form action="home.html">
+           <label for="input_id">CU Boulder Student</label>
+           <input type="radio" name="affirmative" value="yes"> Yes
+           <input type="radio" name="negative" value="no"> No
+         </form>
+
+          <form action="home.html">
+             <label for="input_id">Student Status:</label>
+             <input type="radio" name="Undergrad" value="Undergrad"> Undergrad
+               <select name="select_choice">
+                 <option selected>Select Student Status:</option>
+                 <option value="1">Freshman</option>
+                 <option value="2">Sophomore</option>
+                 <option value="3">Junior</option>
+                 <option value="3">Senior</option>
+               </select>
+            <input type="radio" name="Grad" value="Grad"> Grad
+               <select name="select_choice">
+                 <option selected>Select Student Status:</option>
+                 <option value="1">Masters</option>
+                 <option value="2">PhD</option>
+                 <option value="3">MBA</option>
+               </select>
+          </form>
+
+
+     <input type="submit" value="submit" class="btn btn-primary btn-block">
 	</div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
